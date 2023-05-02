@@ -1,0 +1,60 @@
+.ListGroup {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #c9e6ff;
+  }
+  
+  .card-item {
+    flex: 0 0 calc(33.33% - 1rem);
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  
+.item-header {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+  
+  .item-img {
+    max-width: 300px;
+  }
+  
+  .info {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .item-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .option {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .option:hover {
+    background-color: #0062cc;
+  }

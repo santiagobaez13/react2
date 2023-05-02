@@ -1,0 +1,43 @@
+.Conter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 1rem;
+  }
+  
+.button {
+  background-color: #f0f0f0;
+  border: none;
+  color: #222;
+  font-size: 1.2rem;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+  .btn-agregar {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #d0d0d0;
+  }
